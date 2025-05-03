@@ -1,0 +1,13 @@
+.custom-footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  

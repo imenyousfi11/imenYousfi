@@ -1,0 +1,68 @@
+
+.project-col {
+  display: flex;
+  justify-content: center;
+}
+
+.project-card-motion {
+  width: 100%;
+}
+
+.project-card {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.project-image-wrapper {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+.project-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.project-image-wrapper:hover .project-overlay {
+  opacity: 1;
+}
+.overlay-text {
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 0 12px;
+}
+.overlay-button {
+  color: #fff;
+  font-size: 14px;
+}
+
+.project-title {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.project-tech {
+  margin-top: 8px;
+  align-items: center;
+}
+.tech-icon {
+  font-size: 16px;
+}

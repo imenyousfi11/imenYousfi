@@ -1,0 +1,22 @@
+.service-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-bottom: 4px solid #f75023;
+  margin-top: 40px;
+}
+.service-col {
+  display: flex;
+  justify-content: center;
+}
+  @media (max-width: 768px) {
+    .service-card {
+      max-width: 100% !important;
+    }
+    
+    .service-highlights {
+      justify-content: center;
+    }
+  }

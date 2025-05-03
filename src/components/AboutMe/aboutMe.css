@@ -1,0 +1,209 @@
+
+#about-section.container {
+  width: 100%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+#about-section.container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 24px;
+
+}
+
+.about-text {
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.about-tabs {
+  margin-top: 24px;
+}
+
+.custom-timeline .timeline-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.company-name {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.date-text {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: rgba(0,0,0,0.45);
+}
+
+.tab-icon {
+  margin-right: 8px;
+}
+
+
+.about-section {
+  min-height: 100vh;
+  padding: 80px 24px;
+  position: relative;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image {
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  transform: perspective(1000px) rotateY(-5deg) rotateX(3deg);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border: 8px solid white;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-image:hover {
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+}
+
+
+.about-text {
+  margin-bottom: 24px;
+}
+
+.about-tabs .ant-tabs-nav::before {
+  border-bottom: none !important;
+}
+
+.about-tabs .ant-tabs-tab {
+  font-size: 1rem;
+  padding: 12px 20px;
+  transition: all 0.3s;
+}
+
+.about-tabs .ant-tabs-tab:hover {
+  color: #f75023 !important;
+}
+
+.about-tabs .ant-tabs-tab-active {
+  font-weight: 600;
+}
+
+.about-tabs .ant-tabs-ink-bar {
+  background: linear-gradient(90deg, #f75023 0%, #ec4899 100%);
+  height: 3px;
+}
+
+.timeline-card {
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05) !important;
+  transition: all 0.3s;
+  margin-bottom: 16px;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.timeline-card .ant-card-head {
+  border-bottom: none !important;
+  padding: 16px 20px !important;
+}
+
+.timeline-card .ant-card-head-title {
+  font-weight: 600 !important;
+}
+
+.timeline-card .ant-card-extra {
+  color: #f75023;
+  font-size: 1.2rem;
+}
+
+.timeline-card .ant-card-body {
+  padding: 0 20px 20px !important;
+}
+
+.company-name {
+  display: inline-block;
+  background: rgba(247, 80, 35, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+  color: #f75023;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.date-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #242734;
+}
+
+.custom-timeline .ant-timeline-item-tail {
+  border-left: 3px dashed rgba(247, 80, 35, 0.2) !important;
+  left: 7px !important;
+}
+
+.custom-timeline .ant-timeline-item-head {
+  background-color: #f75023;
+  border: none;
+  width: 16px;
+  height: 16px;
+  left: 0;
+}
+
+@media (max-width: 992px) {
+  .about-section {
+    padding: 60px 20px;
+  }
+  
+  .about-image {
+    margin-bottom: 40px;
+    transform: none;
+  }
+  
+  .about-tabs .ant-tabs-nav {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-section {
+    padding: 40px 16px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+  }
+  
+  .about-tabs .ant-tabs-tab {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+  
+  .timeline-card .ant-card-head-title {
+    white-space: normal !important;
+  padding: 8px 0 !important;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  }
+}
