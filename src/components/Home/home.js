@@ -55,12 +55,12 @@ const Home = () => {
             </Title>
 
             <Title level={3} className="subtitle" type="secondary">
-              <span className="highlight">Frontend</span> &{" "}
+              <span className="highlight">FullStack Developer</span> &{" "}
               <span className="highlight">WordPress</span> Developer
             </Title>
 
             <Text className="description">
-              I create modern web experiences with React, JavaScript, and
+              I create modern web experiences with React, NodeJs, Firebase JavaScript, and
               WordPress. Passionate about design and intuitive user interfaces.
             </Text>
           </Space>

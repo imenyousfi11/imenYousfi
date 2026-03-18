@@ -101,10 +101,10 @@ export default function AboutMe() {
               About Me
             </Title>
             <Paragraph className="about-text">
-              I am a passionate Software Engineer with 4+ years of specialized
-              experience in Front-End Development. My expertise lies in crafting
+              I am a passionate Software Engineer with 5 years of specialized
+              experience in FullStack Development. My expertise lies in crafting
               responsive, high-performance web applications using cutting-edge
-              technologies like React.js, Next.js, and modern JavaScript/TypeScript
+              technologies like React.js, Node.js, Firebase and modern JavaScript/TypeScript
               ecosystems.
             </Paragraph>
             <Paragraph className="about-text">
