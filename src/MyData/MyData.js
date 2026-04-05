@@ -5,9 +5,9 @@ import Edumind from "../assets/images/Edumind.png";
 export const servicesData = [
   {
     icon: <FaReact size={40} />,
-    title: "Front-End Development",
+    title: "FullStack Development",
     description:
-      "I specialize in crafting high-quality, responsive, and dynamic websites using cutting-edge front-end technologies such as HTML5, CSS3, JavaScript, and React.js. My focus is on creating engaging user interfaces that are both intuitive and visually compelling.",
+      "I specialize in crafting high-quality, responsive, and dynamic websites using cutting-edge technologies such as HTML5, CSS3, JavaScript, Firebase/Supabase and React.js. My focus is on creating engaging user interfaces that are both intuitive and visually compelling.",
   },
   {
     icon: <FaWordpress size={40} />,
